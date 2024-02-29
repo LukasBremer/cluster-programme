@@ -4,6 +4,7 @@ using GLMakie
 using Colors, ColorSchemes
 using LaTeXStrings
 
+parse(Int,"2")
 function Gaussian_puls(t,A,A0,T)
 
     t0, sigma, r = 25*T, 10*T, .001
